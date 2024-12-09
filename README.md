@@ -1,7 +1,7 @@
 # MapasMunicipios
 Seja bem-vindo à coleção de mapas políticos de Minas Gerais do **Centro de Gerenciamento e Análise de Dados** da Polícia Militar de Minas Gerais (PMMG). 
 
-Este ambiente foi criado para compartilhar os mapas políticos dos municípios de Minas Gerais, cada mapa apresenta um município em destaque, basta pesquisar pelo nome. De modo a facilitar o uso das imagens em sistemas, foram suprimidos dos nomes dos municípios as conjunções ("do", "de, "da", etc), bem como acentos gráficos, e espaços entre palavras. Usando como base o nome do município, pode-se utilizar a seguinte função:
+Este ambiente foi criado para compartilhar os mapas políticos dos municípios de Minas Gerais, cada mapa apresenta um município em destaque, basta pesquisar pelo nome. De modo a facilitar o uso das imagens em sistemas, foram suprimidos dos nomes dos municípios as conjunções ("do", "de, "da", etc), bem como acentos gráficos, e espaços entre palavras. Usando como base o nome do município, pode-se utilizar a seguinte função (typescript):
 
 ```
 private formatarNomeMunicipio(nome: string): string {
